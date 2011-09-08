@@ -36,7 +36,7 @@ public class JQueryStack implements JavaScriptStack {
 
         String jquery;
         if (productionMode) {
-            jquery = "uk/co/ioko/tapestry/jquery/pages/jquery-1.6.1-min.js";
+            jquery = "uk/co/ioko/tapestry/jquery/pages/jquery-1.6.1.min.js";
         } else {
             jquery = "uk/co/ioko/tapestry/jquery/pages/jquery-1.6.1.js";
         }
